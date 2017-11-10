@@ -1,0 +1,2703 @@
+<database v="(13/02/2016)"><!--MM/DD/YYYY-->
+	<SYS>
+		<name>Boot2</name>
+		<titleID>0000000100000001</titleID>
+		<version>4</version>
+		<ticket>true</ticket>
+		<danger>Boot2 is a critical part of the Wii boot sequence. The only safe way to mess with boot2 is to install BootMii if possible.</danger>
+	</SYS>
+	<SYS>
+		<name>System Menu</name>
+		<titleID>0000000100000002</titleID>
+		<version>97 (2.0U),128 (2.0J),130 (2.0E),162 (2.1E),192 (2.2J),193 (2.2U),194 (2.2E),224 (3.0J),225 (3.0U),226 (3.0E),256 (3.1J),257 (3.1U),258 (3.1E),288 (3.2J),289 (3.2U),290 (3.2E),352 (3.3J),353 (3.3U),354 (3.3E),384 (3.4J),385 (3.4U),386 (3.4E),390 (3.5K),416 (4.0J),417 (4.0U),418 (4.0E),448 (4.1J),449 (4.1U),450 (4.1E),454 (4.1K),480 (4.2J),481 (4.2U),482 (4.2E),486 (4.2K),512 (4.3J),513 (4.3U),514 (4.3E),518 (4.3K)</version>
+		<ticket>true</ticket>
+		<danger>The System Menu is a critical part of the Wii boot sequence, and failure to install a proper WAD, failure to install its corresponding IOS module, and many other factors can cause a brick. The only safe way to mess with the System Menu is with BootMii boot2 installed.</danger>
+	</SYS>
+	<SYS>
+		<name>MIOS</name>
+		<titleID>0000000100000101</titleID>
+		<version>4,5,8,9,10</version>
+		<ticket>true</ticket>
+		<danger>MIOS is a required element in Gamecube gameplay. Without it, Gamecube games will not run. You can reinstall a good copy to restore Gamecube capabilities if this should occur.</danger>
+	</SYS>
+	<SYS>
+		<name>BC</name>
+		<titleID>0000000100000100</titleID>
+		<version>2,4,5,6</version>
+		<ticket>true</ticket>
+		<danger>BC plays a role in Gamecube functions. Removal or corruption of BC will result in no Gamecube support. This can be fixed with the installation of a proper BC.</danger>
+	</SYS>
+	<SYS>
+		<name>BBC iPlayer Channel</name>
+		<titleID>0001000148434AXX</titleID>
+		<region>10</region>
+		<ticket>false</ticket>
+	</SYS>
+	<SYS>
+		<name>Check Mii Out Channel</name>
+		<titleID>00010001484150XX</titleID>
+		<region>2,5,10</region>
+		<version>1,3,512</version>
+		<ticket>false</ticket>
+	</SYS>
+	<SYS>
+		<name>Jam with the Band Live Channel</name>
+		<titleID>00010001484341XX</titleID>
+		<region>5,10</region>
+		<ticket>false</ticket>
+	</SYS>
+	<SYS>
+		<name>Digicam Print Channel</name>
+		<titleID>00010001484344XX</titleID>
+		<region>5</region>
+		<ticket>true</ticket>
+	</SYS>
+	<SYS>
+		<name>EULA</name>
+		<titleID>0001000848414BXX</titleID>
+		<region>2,5,6,10</region>
+		<version>1,2,3</version>
+		<ticket>true</ticket>
+		<danger>This is the 'channel' for EULA acceptance. It is wise not to mess with it!</danger>
+	</SYS>
+	<SYS>
+		<name>Everyone Votes Channel</name>
+		<titleID>0001000148414AXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</SYS>
+	<SYS>
+		<name>Japan Food Service/Demae Channel</name>
+		<titleID>00010008484343XX</titleID>
+		<region>5</region>
+		<version>0,1,2</version>
+		<ticket>true</ticket>
+	</SYS>
+	<SYS>
+		<name>Metroid Prime 3 Preview </name>
+		<titleID>00010001484157XX</titleID>
+		<region>2,5,10</region>
+		<version>1,2</version>
+		<ticket>false</ticket>
+	</SYS>
+	<SYS>
+		<name>Mii Channel</name>
+		<titleID>00010002484143XX</titleID>
+		<region>0</region>
+		<version>2,3,4,5,6</version>
+		<ticket>true</ticket>
+	</SYS>
+	<SYS>
+		<name>News Channel</name>
+		<titleID>00010002484147XX</titleID>
+		<region>0,2,5,10</region>
+		<version>3 (3 is System Region Only / 6 and 7 are Other Regions),6,7</version>
+		<ticket>true</ticket>
+	</SYS>
+	<SYS>
+		<name>Nintendo Channel</name>
+		<titleID>00010001484154XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</SYS>
+	<SYS>
+		<name>Opera - Internet Channel</name>
+		<titleID>00010001484144XX</titleID>
+		<region>2,5,10</region>
+		<version>1,3,257,512,1024</version>
+		<ticket>true</ticket>
+	</SYS>
+	<SYS>
+		<name>Photo Channel</name>
+		<titleID>00010002484141XX</titleID>
+		<region>0</region>
+		<version>1,2</version>
+		<ticket>true</ticket>
+	</SYS>
+	<SYS>
+		<name>Photo Channel 1.1</name>
+		<titleID>00010002484159XX</titleID>
+		<region>0,6</region>
+		<version>1,2,3 (Both Korea and System Region)</version>
+		<ticket>true</ticket>
+	</SYS>
+	<SYS>
+		<name>Region Select</name>
+		<titleID>0001000848414CXX</titleID>
+		<region>2,5,6,10</region>
+		<version>1,2 (Only Korea Version)</version>
+		<ticket>true</ticket>
+		<danger>This hidden 'channel' is run on the Wii's first boot. It is advised not to mess around with it!</danger>
+	</SYS>
+	<SYS>
+		<name>Shashin Channel 1.0 Fukkyuu Programme</name>
+		<titleID>00010001484342XX</titleID>
+		<region>5</region>
+		<ticket>true</ticket>
+	</SYS>
+	<SYS>
+		<name>Shopping Channel</name>
+		<titleID>00010002484142XX</titleID>
+		<region>0,6</region>
+		<version>3,4,5,6,7,8,10,13,14 (Korea Only),16,17,18,19,20,21</version>
+		<ticket>true</ticket>
+	</SYS>
+	<SYS>
+		<name>Today and Tomorrow Channel</name>
+		<titleID>00010001484156XX</titleID>
+		<region>5,10</region>
+		<ticket>false</ticket>
+	</SYS>
+	<SYS>
+		<name>TV Friend Channel / G-Guide for Wii</name>
+		<titleID>0001000148424EXX</titleID>
+		<region>5</region>
+		<ticket>true</ticket>
+	</SYS>
+	<SYS>
+		<name>Weather Channel</name>
+		<titleID>00010002484146XX</titleID>
+		<region>0,2,5,10</region>
+		<version>3 (Only for System Region),6,7</version>
+		<ticket>true</ticket>
+	</SYS>
+&amp;#160;
+	<SYS>
+		<name>Wii no Ma Channel</name>
+		<titleID>00010001484349XX</titleID>
+		<region>5</region>
+		<ticket>true</ticket>
+	</SYS>
+	<SYS>
+		<name>Wii Speak Channel</name>
+		<titleID>00010001484346XX</titleID>
+		<region>2,5,10</region>
+		<version>1,256,512</version>
+		<ticket>true</ticket>
+	</SYS>
+	<IOS>
+		<name>IOS4</name>
+		<titleID>0000000100000004</titleID>
+		<version>65280</version>
+		<ticket>true</ticket>
+		<danger>This IOS is a stub, meaning it has no functionality besides simply existing. You will not be able to run any code from a stub IOS.</danger>
+	</IOS>
+	<IOS>
+		<name>IOS9</name>
+		<titleID>0000000100000009</titleID>
+		<version>520,521,778,1034</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS10</name>
+		<titleID>000000010000000A</titleID>
+		<version>768</version>
+		<ticket>true</ticket>
+		<danger>This IOS is a stub, meaning it has no functionality besides simply existing. You will not be able to run any code from a stub IOS.</danger>
+	</IOS>
+	<IOS>
+		<name>IOS11</name>
+		<titleID>000000010000000B</titleID>
+		<version>10,256</version>
+		<ticket>true</ticket>
+		<danger>Version 256 of this IOS a stub, meaning it has no functionality besides simply existing. You will not be able to run any code from a stub IOS. You should NOT install version 256 unless you know what you're doing!! If you're using System Menu 2.0-2.1, BY ALL MEANS avoid this version!</danger>
+	</IOS>
+	<IOS>
+		<name>IOS12</name>
+		<titleID>000000010000000C</titleID>
+		<version>6,11,12,269,525,526</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS13</name>
+		<titleID>000000010000000D</titleID>
+		<version>10,15,16,273,1031,1032</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS14</name>
+		<titleID>000000010000000E</titleID>
+		<version>262,263,520,1031,1032</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS15</name>
+		<titleID>000000010000000F</titleID>
+		<version>257,258,259,260,265,266,523,1031,1032</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS16</name>
+		<titleID>0000000100000010</titleID>
+		<version>512</version>
+		<ticket>true</ticket>
+		<danger>This IOS is a stub, meaning it has no functionality besides simply existing. You will not be able to run any code from a stub IOS.</danger>
+	</IOS>
+	<IOS>
+		<name>IOS17</name>
+		<titleID>0000000100000011</titleID>
+		<version>512,517,518,775,1031,1032</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS20</name>
+		<titleID>0000000100000014</titleID>
+		<version>12,256</version>
+		<ticket>true</ticket>
+		<danger>Version 256 of this IOS a stub, meaning it has no functionality besides simply existing. You will not be able to run any code from a stub IOS. You should NOT install version 256 unless you know what you're doing!! If you're using System Menu 2.2, BY ALL MEANS avoid this version!</danger>
+	</IOS>
+	<IOS>
+		<name>IOS21</name>
+		<titleID>0000000100000015</titleID>
+		<version>514,515,516,517,522,525,782,1038,1039</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS22</name>
+		<titleID>0000000100000016</titleID>
+		<version>777,780,1037,1293,1294</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS28</name>
+		<titleID>000000010000001C</titleID>
+		<version>1292,1293,1550,1806,1807</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS30</name>
+		<titleID>000000010000001E</titleID>
+		<version>1037,1039,1040,2576,2816</version>
+		<ticket>true</ticket>
+		<danger>Version 2816 of this IOS a stub, meaning it has no functionality besides simply existing. You will not be able to run any code from a stub IOS. You should NOT install version 2816 unless you know what you're doing!! If you're using a System Menu between (and including) 3.0-3.3, BY ALL MEANS avoid this version!</danger>
+	</IOS>
+	<IOS>
+		<name>IOS31</name>
+		<titleID>000000010000001F</titleID>
+		<version>1037,1039,1040,2576,3088,3092,3349,3607,3608</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS33</name>
+		<titleID>0000000100000021</titleID>
+		<version>1040,2832,2834,3091,3607,3608</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS34</name>
+		<titleID>0000000100000022</titleID>
+		<version>1039,3087,3091,3348,3607,3608</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS35</name>
+		<titleID>0000000100000023</titleID>
+		<version>1040,3088,3092,3349,3607,3608</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS36</name>
+		<titleID>0000000100000024</titleID>
+		<version>1042,3090,3094,3351,3607,3608</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS37</name>
+		<titleID>0000000100000025</titleID>
+		<version>2070,3609,3612,3869,5662,5663</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS38</name>
+		<titleID>0000000100000026</titleID>
+		<version>3610,3867,4123,4124</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS40</name>
+		<titleID>0000000100000028</titleID>
+		<version>3072</version>
+		<ticket>true</ticket>
+		<danger>Version 3072 of this IOS a stub, meaning it has no functionality besides simply existing. You will not be able to run any code from a stub IOS. You should NOT install version 3072 unless you know what you're doing!! If you're using System Menu 3.3K, BY ALL MEANS avoid this version!</danger>
+	</IOS>
+	<IOS>
+		<name>IOS41</name>
+		<titleID>0000000100000029</titleID>
+		<version>2835,3091,3348,3606,3607</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS43</name>
+		<titleID>000000010000002B</titleID>
+		<version>2835,3091,3348,3606,3607</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS45</name>
+		<titleID>000000010000002D</titleID>
+		<version>2835,3091,3348,3606,3607</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS46</name>
+		<titleID>000000010000002E</titleID>
+		<version>2837,3093,3350,3606,3607</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS48</name>
+		<titleID>0000000100000030</titleID>
+		<version>4123,4124</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS50</name>
+		<titleID>0000000100000032</titleID>
+		<version>4889,5120</version>
+		<ticket>true</ticket>
+		<danger>Version 5120 of this IOS a stub, meaning it has no functionality besides simply existing. You will not be able to run any code from a stub IOS. You should NOT install version 5120 unless you know what you're doing!! If you're using System Menu 3.4, BY ALL MEANS avoid this version!</danger>
+&amp;#160;
+	</IOS>
+	<IOS>
+		<name>IOS51</name>
+		<titleID>0000000100000033</titleID>
+		<version>4633,4864</version>
+		<ticket>true</ticket>
+		<danger>Version 4864 of this IOS a stub, meaning it has no functionality besides simply existing. You will not be able to run any code from a stub IOS.</danger>
+	</IOS>
+	<IOS>
+		<name>IOS52</name>
+		<titleID>0000000100000034</titleID>
+		<version>5661,5888</version>
+		<ticket>true</ticket>
+		<danger>Version 5888 of this IOS a stub, meaning it has no functionality besides simply existing. You will not be able to run any code from a stub IOS. You should NOT install version 5888 unless you know what you're doing!! If you're using System Menu 3.5, BY ALL MEANS avoid this version!</danger>
+	</IOS>
+	<IOS>
+		<name>IOS53</name>
+		<titleID>0000000100000035</titleID>
+		<version>4113,5149,5406,5662,5663</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS55</name>
+		<titleID>0000000100000037</titleID>
+		<version>4633,5149,5406,5662,5663</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS56</name>
+		<titleID>0000000100000038</titleID>
+		<version>4890,5405,5661,5662</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS57</name>
+		<titleID>0000000100000039</titleID>
+		<version>5404,5661,5918,5919</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS58</name>
+		<titleID>000000010000003A</titleID>
+		<version>6175,6176</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS59</name>
+		<titleID>000000010000003B</titleID>
+		<version>8737,9249</version>
+		<ticket>true</ticket>
+	</IOS>	
+	<IOS>
+		<name>IOS60</name>
+		<titleID>000000010000003C</titleID>
+		<version>6174,6400</version>
+		<ticket>true</ticket>
+		<danger>Version 6400 of this IOS a stub, meaning it has no functionality besides simply existing. You will not be able to run any code from a stub IOS. You should NOT install version 6400 unless you know what you're doing!! If you're using System Menu 4.0 or 4.1, BY ALL MEANS avoid this version!</danger>
+	</IOS>
+	<IOS>
+		<name>IOS61</name>
+		<titleID>000000010000003D</titleID>
+		<version>4890,5405,5661,5662</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS62</name>
+		<titleID>000000010000003E</titleID>
+		<version>6430</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS70</name>
+		<titleID>0000000100000046</titleID>
+		<version>6687,6912</version>
+		<ticket>true</ticket>
+		<danger>Version 6912 of this IOS a stub, meaning it has no functionality besides simply existing. You will not be able to run any code from a stub IOS. You should NOT install version 6912 unless you know what you're doing!! If you're using System Menu 4.2, BY ALL MEANS avoid this version!</danger>
+	</IOS>
+	<IOS>
+		<name>IOS80</name>
+		<titleID>0000000100000050</titleID>
+		<version>6943,6944</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS222</name>
+		<titleID>00000001000000DE</titleID>
+		<version>65280</version>
+		<ticket>true</ticket>
+		<danger>This IOS is a stub, meaning it has no functionality besides simply existing. You will not be able to run any code from a stub IOS.</danger>
+	</IOS>
+	<IOS>
+		<name>IOS223</name>
+		<titleID>00000001000000DF</titleID>
+		<version>65280</version>
+		<ticket>true</ticket>
+		<danger>This IOS is a stub, meaning it has no functionality besides simply existing. You will not be able to run any code from a stub IOS.</danger>
+	</IOS>
+	<IOS>
+		<name>IOS249</name>
+		<titleID>00000001000000F9</titleID>
+		<version>65280</version>
+		<ticket>true</ticket>
+		<danger>This IOS is a stub, meaning it has no functionality besides simply existing. You will not be able to run any code from a stub IOS.</danger>
+	</IOS>
+	<IOS>
+		<name>IOS250</name>
+		<titleID>00000001000000FA</titleID>
+		<version>65280</version>
+		<ticket>true</ticket>
+		<danger>This IOS is a stub, meaning it has no functionality besides simply existing. You will not be able to run any code from a stub IOS.</danger>
+	</IOS>
+	<IOS>
+		<name>IOS254</name>
+		<titleID>00000001000000FE</titleID>
+		<version>2,3,260,65280</version>
+		<ticket>true</ticket>
+		<danger>This IOS is a stub, meaning it has no functionality besides simply existing. You will not be able to run any code from a stub IOS.</danger>
+	</IOS>
+	<VC type="C64">
+		<name>Pitstop II</name>
+		<titleID>0001000143394DXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="C64">
+		<name>International Karate</name>
+		<titleID>00010001433959XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="C64">
+		<name>The Last Ninja</name>
+		<titleID>00010001433958XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NEO">
+		<name>Metal Slug</name>
+		<titleID>0001000145414AXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Donkey Kong Jr. Math</name>
+		<titleID>00010001464136XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Yoshi</name>
+		<titleID>00010001464137XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Kirby's Adventure</name>
+		<titleID>00010001464138XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Zelda II: The Adventure of Link</name>
+		<titleID>00010001464139XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Donkey Kong</name>
+		<titleID>00010001464141XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Donkey Kong Jr.</name>
+		<titleID>00010001464142XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Pinball</name>
+		<titleID>00010001464143XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Mario Bros.</name>
+		<titleID>00010001464146XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Super Mario Bros.</name>
+		<titleID>00010001464147XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Tennis</name>
+		<titleID>00010001464148XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Soccer</name>
+		<titleID>00010001464149XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Ice Hockey</name>
+		<titleID>0001000146414AXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>The Legend of Zelda</name>
+		<titleID>0001000146414BXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Baseball</name>
+		<titleID>0001000146414CXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Wario's Woods</name>
+		<titleID>0001000146414DXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Urban Champion</name>
+		<titleID>0001000146414EXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Solomon's Key</name>
+		<titleID>0001000146414FXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>NES Open Tour Golf</name>
+		<titleID>00010001464150XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Ninja JaJaMaru-kun</name>
+		<titleID>00010001464151XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Gradius</name>
+		<titleID>00010001464152XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Xevious</name>
+		<titleID>00010001464153XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>The Legend of Kage</name>
+		<titleID>00010001464154XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Tecmo Bowl</name>
+		<titleID>00010001464156XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Elevator Action</name>
+		<titleID>00010001464157XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Pac-Man</name>
+		<titleID>00010001464158XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Super Mario Brothers: The Lost Levels</name>
+		<titleID>00010001464232XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Lunar Pool</name>
+		<titleID>00010001464234XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Zanac</name>
+		<titleID>00010001464235XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Mach Rider</name>
+		<titleID>00010001464242XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Excitebike</name>
+		<titleID>00010001464243XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Kid Icarus</name>
+		<titleID>00010001464244XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Ice Climber</name>
+		<titleID>00010001464245XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Castlevania</name>
+		<titleID>00010001464248XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Punch-Out!! Featuring Mr. Dream</name>
+		<titleID>00010001464249XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Mighty Bomb Jack</name>
+		<titleID>0001000146424AXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Teenage Mutant Ninja Turtles</name>
+		<titleID>0001000146424BXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Lode Runner</name>
+		<titleID>0001000146424CXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Ninja Gaiden</name>
+		<titleID>0001000146424EXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Galaga</name>
+		<titleID>00010001464252XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Milon's Secret Castle</name>
+		<titleID>00010001464253XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Adventures of Lolo</name>
+		<titleID>00010001464254XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Super Mario Bros. 2</name>
+		<titleID>00010001464259XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Metroid</name>
+		<titleID>0001000146425AXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Bubble Bobble</name>
+		<titleID>00010001464333XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>StarTropics</name>
+		<titleID>00010001464336XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>NES Play Action Football</name>
+		<titleID>00010001464337XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Castlevania II: Simon's Quest</name>
+		<titleID>00010001464338XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Star Soldier</name>
+		<titleID>00010001464341XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Balloon Fight</name>
+		<titleID>00010001464350XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Ninja Gaiden II: The Dark Sword of Chaos</name>
+		<titleID>00010001464351XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Adventure Island</name>
+		<titleID>00010001464352XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Super C</name>
+		<titleID>00010001464353XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Mega Man</name>
+		<titleID>00010001464354XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Volleyball</name>
+		<titleID>00010001464355XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Wrecking Crew</name>
+		<titleID>00010001464356XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Super Mario Bros. 3</name>
+		<titleID>00010001464357XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Yoshi's Cookie</name>
+		<titleID>00010001464359XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>King's Knight</name>
+		<titleID>0001000146435AXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Double Dragon</name>
+		<titleID>00010001464432XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Adventures of Lolo 2</name>
+		<titleID>00010001464436XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Mega Man 3</name>
+		<titleID>00010001464437XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Spelunker</name>
+		<titleID>00010001464441XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Bases Loaded</name>
+		<titleID>00010001464446XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Ghosts 'n Goblins</name>
+		<titleID>00010001464447XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Ninja Gaiden 3</name>
+		<titleID>0001000146444CXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Mega Man 2</name>
+		<titleID>0001000146444EXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Operation Wolf</name>
+		<titleID>0001000146444FXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Blades of Steel</name>
+		<titleID>00010001464450XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Double Dribble</name>
+		<titleID>00010001464451XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Renegade</name>
+		<titleID>00010001464454XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Super Dodgeball</name>
+		<titleID>00010001464455XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>River City Ransom/Street Gangs</name>
+		<titleID>00010001464456XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Sky Kid</name>
+		<titleID>00010001464543XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Dig Dug</name>
+		<titleID>00010001464544XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>City Connection</name>
+		<titleID>00010001464549XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Bio Miracle Bokutte Upa</name>
+		<titleID>0001000146454DXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Life Force</name>
+		<titleID>0001000146454EXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Castlevania III: Dracula's Curse</name>
+		<titleID>00010001464551XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Zoda's Revenge: StarTropics 2</name>
+		<titleID>00010001464552XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="NES">
+		<name>Clu Clu Land</name>
+		<titleID>00010001464553XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="SNES">
+		<name>Super Metroid</name>
+		<titleID>000100014A4156XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="SNES">
+		<name>Super Street Fighter 2</name>
+		<titleID>000100014A4242XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="N64">
+		<name>Super Mario 64</name>
+		<titleID>000100014E4141XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="N64">
+		<name>Mario Kart 64</name>
+		<titleID>000100014E4142XX</titleID>
+		<region>2,5,10,13</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="N64">
+		<name>The Legend of Zelda: Ocarina of Time</name>
+		<titleID>000100014E4143XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="N64">
+		<name>StarFox 64</name>
+		<titleID>000100014E4144XX</titleID>
+		<region>2,5,10,13</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="N64">
+		<name>Paper Mario 64</name>
+		<titleID>000100014E4145XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="N64">
+		<name>F-Zero X</name>
+		<titleID>000100014E4146XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="N64">
+		<name>Yoshi's Story</name>
+		<titleID>000100014E4148XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="N64">
+		<name>Wave Race 64</name>
+		<titleID>000100014E4149XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="N64">
+		<name>Sin and Punishment</name>
+		<titleID>000100014E414AXX</titleID>
+		<region>5,7,9</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="N64">
+		<name>Pokemon Snap</name>
+		<titleID>000100014E414BXX</titleID>
+		<region>1,2,3,5,10,12</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="N64">
+		<name>Super Smash Bros.</name>
+		<titleID>000100014E414CXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="N64">
+		<name>Kirby 64: The Crystal Shards</name>
+		<titleID>000100014E414DXX</titleID>
+		<region>2,5,10,13</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="N64">
+		<name>Pokemon Puzzle League</name>
+		<titleID>000100014E414EXX</titleID>
+		<region>1,2,3,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="N64">
+		<name>1080 Snowboarding</name>
+		<titleID>000100014E414FXX</titleID>
+		<region>2,5,10,13</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="N64">
+		<name>Custom Robo V2</name>
+		<titleID>000100014E4150XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="N64">
+		<name>The Legend of Zelda: Majora's Mask</name>
+		<titleID>000100014E4152XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="N64">
+		<name>Cruis'n USA</name>
+		<titleID>000100014E4153XX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="N64">
+		<name>Mario Golf</name>
+		<titleID>000100014E4155XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="N64">
+		<name>Mario Tennis</name>
+		<titleID>000100014E4154XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="N64">
+		<name>Ogre Battle 64: Person of Lordly Caliber</name>
+		<titleID>000100014E4159XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="SMS">
+		<name>Hokuto no Ken</name>
+		<titleID>000100014C4141XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="SMS">
+		<name>Fantasy Zone</name>
+		<titleID>000100014C4142XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="SMS">
+		<name>Wonder Boy</name>
+		<titleID>000100014C4143XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="SMS">
+		<name>Phantasy Star</name>
+		<titleID>000100014C4144XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="SMS">
+		<name>Alex Kidd in Miracle World</name>
+		<titleID>000100014C4145XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="SMS">
+		<name>Secret Command</name>
+		<titleID>000100014C4146XX</titleID>
+		<region>5,9,10</region>
+		<ticket>false</ticket>
+&amp;#160;
+	</VC>
+	<VC type="SMS">
+		<name>Sonic the Hedgehog</name>
+		<titleID>000100014C4147XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="SMS">
+		<name>Space Harrier</name>
+		<titleID>000100014C4148XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="SMS">
+		<name>Enduro Racer</name>
+		<titleID>000100014C4149XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="SMS">
+		<name>Sonic the Hedgehog 2</name>
+		<titleID>000100014C414AXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="SMS">
+		<name>Wonder Boy In Monster Land</name>
+		<titleID>000100014C414BXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="SMS">
+		<name>Fantasy Zone II</name>
+		<titleID>000100014C414CXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="SMS">
+		<name>Sonic Chaos</name>
+		<titleID>000100014C414DXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="SMS">
+		<name>Alex Kidd: The Lost Stars</name>
+		<titleID>000100014C414EXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="SMS">
+		<name>R-Type</name>
+		<titleID>000100014C414FXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="SMS">
+		<name>Wonder Boy III: The Dragon's Trap</name>
+		<titleID>000100014C4150XX</titleID>
+		<region>10</region>
+		<ticket>false</ticket>
+&amp;#160;
+	</VC>
+	<VC type="GEN">
+		<name>Alex Kidd in the Enchanted Castle</name>
+		<titleID>000100014D4158XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="TG16">
+		<name>Air Zonk</name>
+		<titleID>00010001504257XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="TG16">
+		<name>Salamander</name>
+		<titleID>00010001504133XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="TGCD">
+		<name>Cho Aniki</name>
+		<titleID>00010001514143XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="ARC">
+		<name>Starforce</name>
+		<titleID>0001000145365AXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="MSX">
+		<name>Eggy</name>
+		<titleID>00010001584141XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</VC>
+	<VC type="MSX">
+		<name>Aleste</name>
+		<titleID>00010001584142XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</VC>
+	<WW>
+		<name>Brain Challenge</name>
+		<titleID>00010001573243XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Let's Catch</name>
+		<titleID>0001000157324BXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Drill Sergeant Mindstrong</name>
+		<titleID>00010001573254XX</titleID>
+		<region>2,5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>SIMPLE Series Vol. 4: The Misshitsu kara no Dasshutsu</name>
+		<titleID>00010001573334XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>3 C</name>
+		<titleID>00010001573344XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Surinuke Anatousu</name>
+		<titleID>0001000157334BXX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>The Three Musketeers: One For All!</name>
+		<titleID>0001000157334DXX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>FORTUNE: Hoshi no Furi Sosogu Oka</name>
+		<titleID>00010001573432XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Shika Gari</name>
+		<titleID>0001000157344BXX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Shikakui Atama wo Maru Kusuru: Mainichi Minna no Challenge Hen</name>
+		<titleID>0001000157344FXX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Spaceball Revolution</name>
+		<titleID>00010001573454XX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>5 Spots Party</name>
+		<titleID>00010001573534XX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>BIT.TRIP CORE</name>
+		<titleID>00010001573843XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Mebius Drive</name>
+		<titleID>00010001573844XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Hachiwan Diver Wii</name>
+		<titleID>00010001573849XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Ouchi de Mugen Puchi Puchi</name>
+		<titleID>00010001573850XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Battle Poker</name>
+		<titleID>00010001573858XX</titleID>
+		<region>2</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Evasive Space</name>
+		<titleID>00010001573949XX</titleID>
+		<region>2,5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Magnetica Twist</name>
+		<titleID>00010001574132XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>WarioWare D.I.Y. Showcase</name>
+		<titleID>00010001574134XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Ant Nation</name>
+		<titleID>0001000157414EXX</titleID>
+		<region>2</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Harapeko Aomushi no ABC</name>
+		<titleID>0001000157414FXX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Yakuman Wii</name>
+		<titleID>00010001574151XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Tsuushin Taikyoku: Igo Dojo 2700-Mon</name>
+		<titleID>00010001574152XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Tsuushin Taikyoku: Hayazashi Shougi 3</name>
+		<titleID>00010001574153XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Tsuushin Taikyoku: World Chess</name>
+		<titleID>00010001574155XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Strong Bad 4: Dangeresque 3</name>
+		<titleID>00010001574232XX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Strong Bad 5: 8-Bit Is Enough</name>
+		<titleID>00010001574233XX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Wild West Guns</name>
+		<titleID>00010001574234XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Block Breaker Deluxe</name>
+		<titleID>00010001574235XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>TV Show King</name>
+		<titleID>00010001574236XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Midnight Pool</name>
+		<titleID>00010001574237XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Midnight Bowling</name>
+		<titleID>00010001574238XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Bakutan</name>
+		<titleID>00010001574241XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Snowboard Riot</name>
+		<titleID>00010001574242XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Frat Party Games: Pong Toss</name>
+		<titleID>00010001574245XX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Bang Attack</name>
+		<titleID>00010001574247XX</titleID>
+		<region>10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Boingz</name>
+		<titleID>00010001574249XX</titleID>
+		<region>2</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Harvest Moon: My Little Shop</name>
+		<titleID>0001000157424AXX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Arkanoid Plus</name>
+		<titleID>0001000157424BXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Bubble Bobble Plus!</name>
+		<titleID>0001000157424CXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>My Pokemon Ranch</name>
+		<titleID>0001000157424DXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Bonsai Barber</name>
+		<titleID>0001000157424EXX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Gravitronix</name>
+		<titleID>0001000157424FXX</titleID>
+		<region>2</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Plattchen: Twist 'n' Paint</name>
+		<titleID>00010001574250XX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Star Soldier R</name>
+		<titleID>00010001574251XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>POP</name>
+		<titleID>00010001574253XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>SPOGS Racing</name>
+		<titleID>00010001574256XX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Critter Round-up</name>
+		<titleID>00010001574257XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Strong Bad 1: Homestar Ruiner</name>
+		<titleID>00010001574258XX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Strong Bad 2: Strong Badia the Free</name>
+		<titleID>00010001574259XX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Strong Bad 3: Baddest of the Bands</name>
+		<titleID>0001000157425AXX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Crystal Defenders R2</name>
+		<titleID>00010001574332XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Crystal Defenders R1</name>
+		<titleID>00010001574349XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Cocoto Platform Jumper</name>
+		<titleID>0001000157434AXX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Tokyo City Nights</name>
+		<titleID>0001000157434EXX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Cocoto Fishing Master</name>
+		<titleID>0001000157434FXX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Carnival King</name>
+		<titleID>00010001574352XX</titleID>
+		<region>2</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Cue Sports: Pool Revolution</name>
+		<titleID>00010001574353XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>3-2-1, Rattle Battle!</name>
+		<titleID>00010001574355XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>ColorZ</name>
+		<titleID>0001000157435AXX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>SIMPLE Series Vol. 2: The Number Puzzle Neo</name>
+		<titleID>00010001574432XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Castlevania: The Adventure ReBirth</name>
+		<titleID>00010001574439XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Darts Wii</name>
+		<titleID>00010001574441XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Derby Dog</name>
+		<titleID>00010001574442XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Defend Your Castle</name>
+		<titleID>00010001574446XX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Art Style: ROTOHEX</name>
+		<titleID>00010001574448XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>SIMPLE series Vol. 1: The Block Kuzushi Neo</name>
+		<titleID>00010001574449XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Dr. Mario Online Rx</name>
+		<titleID>0001000157444DXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Discipline</name>
+		<titleID>0001000157444EXX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Driift Mania</name>
+		<titleID>0001000157444FXX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Dr. Mario Online Rx: Friend Battle Demo</name>
+		<titleID>00010001574450XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Mr. Driller W</name>
+		<titleID>00010001574452XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>SEA FARM: Iruka to Watashi Showtime</name>
+		<titleID>00010001574536XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Alien Crush Returns</name>
+		<titleID>00010001574539XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Eduardo the Samurai Toaster</name>
+		<titleID>00010001574544XX</titleID>
+		<region>2</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>"Aha! I Got It!" Escape Game</name>
+		<titleID>0001000157454DXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Equilibrio</name>
+		<titleID>00010001574551XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>My Aquarium</name>
+		<titleID>00010001574552XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>PictureBook Games: Pop-Up Pursuit</name>
+		<titleID>00010001574554XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Viral Survival</name>
+		<titleID>00010001574556XX</titleID>
+		<region>2,5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Final Fantasy Crystal Chronicles: My Life as a Darklord</name>
+		<titleID>00010001574632XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Final Fantasy Crystal Chronicles: My Life as a Darklord [DEMO]</name>
+		<titleID>00010001584843XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Final Fantasy IV: The After Years</name>
+		<titleID>00010001574634XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Family Card Games</name>
+		<titleID>00010001574635XX</titleID>
+		<region>2,5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Sandy Beach</name>
+		<titleID>00010001574642XX</titleID>
+		<region>2,5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Final Fantasy Crystal Chronicles: My Life as a King</name>
+		<titleID>00010001574643XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Fun! Fun! Minigolf</name>
+		<titleID>00010001574646XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Reel Fishing Challenge</name>
+		<titleID>00010001574649XX</titleID>
+		<region>2,5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Family and Friends Party</name>
+		<titleID>0001000157464DXX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Hirameki Card Battle: Mekuruka</name>
+		<titleID>00010001574650XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Minna no Theater Wii</name>
+		<titleID>00010001574653XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Fish'em All!</name>
+		<titleID>00010001574654XX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Sugarbunnies Wii: Welcome to Bunnies' Field</name>
+		<titleID>00010001574732XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Gradius ReBirth</name>
+		<titleID>00010001574744XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Game Sound Station</name>
+		<titleID>0001000157474DXX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>World of Goo</name>
+		<titleID>0001000157474FXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>World of Goo [DEMO]</name>
+		<titleID>00010001584846XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Aero Guitar</name>
+		<titleID>00010001574755XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Groovin' Blocks</name>
+		<titleID>00010001574756XX</titleID>
+		<region>2</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>GyroStarr</name>
+		<titleID>00010001574759XX</titleID>
+		<region>2</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Home Sweet Home</name>
+		<titleID>00010001574833XX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Heracles: Chariot Racing</name>
+		<titleID>00010001574845XX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Full Blast Hitchhike</name>
+		<titleID>00010001574848XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Hockey Allstar Shootout</name>
+		<titleID>0001000157484FXX</titleID>
+		<region>2</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Sexy Poker</name>
+		<titleID>00010001574850XX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Ghost Mansion Party</name>
+		<titleID>00010001574855XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>High Voltage Hot Rod Show</name>
+		<titleID>00010001574856XX</titleID>
+		<region>2</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Helix</name>
+		<titleID>00010001574858XX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>NyxQuest: Kindred Spirits</name>
+		<titleID>00010001574943XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>NyxQuest: Kindred Spirits [DEMO]</name>
+		<titleID>00010001584844XX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Tales of Monkey Island: Chapter 3</name>
+		<titleID>00010001574945XX</titleID>
+		<region>2</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Incoming!</name>
+		<titleID>00010001574947XX</titleID>
+		<region>2</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>IVY THE KIWI? mini</name>
+		<titleID>0001000157494BXX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Tales of Monkey Island: Chapter 1</name>
+		<titleID>0001000157494CXX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>The Incredible Maze</name>
+		<titleID>0001000157494EXX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Tales of Monkey Island: Chapter 2</name>
+		<titleID>00010001574953XX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Space Invaders Get Even</name>
+		<titleID>00010001574956XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Jinsei Game</name>
+		<titleID>00010001574A47XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Jungle Speed</name>
+		<titleID>00010001574A53XX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Kappa-kun no Ota to Shimikai</name>
+		<titleID>00010001574B32XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Kappa-kun to 3 Biki no Koneko</name>
+		<titleID>00010001574B33XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Minna de Asobou: Koinu de Kururin</name>
+		<titleID>00010001574B39XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>You, Me, and the Cubes</name>
+		<titleID>00010001574B42XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Pirates: The Key of Dreams</name>
+		<titleID>00010001574B44XX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Raku Raku Kinen Appli Wii</name>
+		<titleID>00010001574B45XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Big Kahuna Party</name>
+		<titleID>00010001574B48XX</titleID>
+		<region>2</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Party Fun Pirate</name>
+		<titleID>00010001574B4BXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Kappa-kun to Mori no Nakamatachi</name>
+		<titleID>00010001574B50XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Kentei TV Wii</name>
+		<titleID>00010001574B51XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Karate Phants: Gloves of Glory</name>
+		<titleID>00010001574B52XX</titleID>
+		<region>10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Contra ReBirth</name>
+		<titleID>00010001574B54XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>HB Arcade Cards</name>
+		<titleID>00010001574C47XX</titleID>
+		<region>2</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Rikachan's Fashion House</name>
+		<titleID>00010001574C4BXX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>LostWinds: Winter of the Melodias</name>
+		<titleID>00010001574C4FXX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>LONPOS</name>
+		<titleID>00010001574C50XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>LIT</name>
+		<titleID>00010001574C54XX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>LostWinds</name>
+		<titleID>00010001574C57XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Bomberman Blast</name>
+		<titleID>00010001574D38XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Happy Hammerin'</name>
+		<titleID>00010001574D39XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Maboshi's Arcade</name>
+		<titleID>00010001574D42XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>MadStone</name>
+		<titleID>00010001574D44XX</titleID>
+		<region>2</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Mart Racer</name>
+		<titleID>00010001574D47XX</titleID>
+		<region>2</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Major League Eating: The Game</name>
+		<titleID>00010001574D4CXX</titleID>
+		<region>2,5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Muscle March</name>
+		<titleID>00010001574D4DXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Moki Moki</name>
+		<titleID>00010001574D4FXX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Kotoba no Puzzle: Mojipittan Wii</name>
+		<titleID>00010001574D50XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Penguins and Friends: Hey! That's My Fish!</name>
+		<titleID>00010001574E45XX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Niki - Rock 'n' Ball</name>
+		<titleID>00010001574E4BXX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Sugu Suro Duo: New Pulsar RV</name>
+		<titleID>00010001574E50XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>NEVES Plus</name>
+		<titleID>00010001574E56XX</titleID>
+		<region>2,5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>NEVES Plus Returns</name>
+		<titleID>00010001574E57XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Family Pirate Party</name>
+		<titleID>00010001574F36XX</titleID>
+		<region>2,5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Family Glide Hockey</name>
+		<titleID>00010001574F41XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Art Style: ORBIENT</name>
+		<titleID>00010001574F42XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Order!</name>
+		<titleID>00010001574F44XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Oekaki Logic</name>
+		<titleID>00010001574F45XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Family Mini Golf</name>
+		<titleID>00010001574F47XX</titleID>
+		<region>2,5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Karaoke Joysound Wii</name>
+		<titleID>00010001574F4BXX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Family Slot Car Racing</name>
+		<titleID>00010001574F53XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Overturn: Mecha Wars</name>
+		<titleID>00010001574F54XX</titleID>
+		<region>2,5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Bit Boy!!</name>
+		<titleID>00010001574F59XX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Kodomo Kyooiku Terebi Wii Aiue Oomuzu</name>
+		<titleID>00010001574F5AXX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Potpourrii</name>
+		<titleID>00010001575032XX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Pokers Wii</name>
+		<titleID>00010001575039XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Pokemon Mystery Dungeon: Ikuzo! Arashi no Boukendan</name>
+		<titleID>00010001575041XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Pokemon Mystery Dungeon: Ikuzo! Arashi no Boukendan [DEMO]</name>
+		<titleID>00010001584842XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Doc Louis's Punch-Out!!</name>
+		<titleID>00010001575043XX</titleID>
+		<region>2</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Chindouchou!! Pole no Daibouken</name>
+		<titleID>00010001575044XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Pokemon Mystery Dungeon: Susume! Honoo no Boukendan</name>
+		<titleID>00010001575046XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Pokemon Mystery Dungeon: Mezase! Hikari no Boukendan</name>
+		<titleID>00010001575048XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Pit Crew Panic!</name>
+		<titleID>00010001575049XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Texas Hold'em Poker</name>
+		<titleID>0001000157504BXX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Planet Pachinko</name>
+		<titleID>0001000157504CXX</titleID>
+		<region>2</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Popple to Mahou no Crayon</name>
+		<titleID>0001000157504FXX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Family Table Tennis</name>
+		<titleID>00010001575050XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Protothea</name>
+		<titleID>00010001575051XX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Art Style: CUBELLO</name>
+		<titleID>00010001575052XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Pokemon Rumble</name>
+		<titleID>00010001575053XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Pokemon Rumble [DEMO]</name>
+		<titleID>00010001584841XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Fantasic Cube</name>
+		<titleID>00010001575054XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Bust-a-Move Plus!</name>
+		<titleID>00010001575055XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Minna de Tobikome! Penguin Diving: Hooper Looper</name>
+		<titleID>00010001575058XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Bruiser and Scratch</name>
+		<titleID>0001000157505AXX</titleID>
+		<region>2</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Mega Man 9</name>
+		<titleID>00010001575239XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Word Searcher</name>
+		<titleID>00010001575244XX</titleID>
+		<region>2</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Rainbow Islands: Towering Adventure</name>
+		<titleID>00010001575249XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>BIT.TRIP RUNNER (JP)</name>
+		<titleID>0001000157524EXX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>BIT.TRIP RUNNER (EU/US)</name>
+		<titleID>00010001575255XX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Saikyou Ginsei Igo</name>
+		<titleID>00010001575332XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Silver Star Chess</name>
+		<titleID>00010001575333XX</titleID>
+		<region>2,5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Saikyou Ginsei Mahjongg</name>
+		<titleID>00010001575334XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Saikyou Ginsei Gomoku Narabe</name>
+		<titleID>00010001575335XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Silver Star Reversi</name>
+		<titleID>00010001575336XX</titleID>
+		<region>2,5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Minna de Taisen Puzzle: Shanghai Wii</name>
+		<titleID>00010001575338XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Sudoku Challenge!</name>
+		<titleID>00010001575339XX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Onslaught</name>
+		<titleID>00010001575341XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Sorcery Blade</name>
+		<titleID>00010001575342XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Out of Galaxy: Gin no Koushika</name>
+		<titleID>00010001575343XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Princess Ai Monogatari</name>
+		<titleID>00010001575345XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Pop 'Em, Drop 'Em SameGame</name>
+		<titleID>00010001575347XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Saikyou Ginsei Shougi</name>
+		<titleID>00010001575349XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>The Magic Obelisk</name>
+		<titleID>0001000157534CXX</titleID>
+		<region>2,5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Eat! Fat! FIGHT!</name>
+		<titleID>0001000157534DXX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Tenshi no Solitaire</name>
+		<titleID>00010001575354XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Shootanto: Evolutionary Mayhem</name>
+		<titleID>00010001575355XX</titleID>
+		<region>2,5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Swords and Soldiers</name>
+		<titleID>00010001575357XX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Target Toss Pro: Bags</name>
+		<titleID>00010001575432XX</titleID>
+		<region>2</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Tomena Sanner</name>
+		<titleID>00010001575433XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Hajiite! Block Rush</name>
+		<titleID>00010001575438XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Fantastic Tambourine</name>
+		<titleID>00010001575442XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Tomy Drive Shutsudou! Kinkyuu Sharyou Hen</name>
+		<titleID>00010001575444XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Tiki Towers</name>
+		<titleID>00010001575449XX</titleID>
+		<region>2</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Adventure Island: The Beginning</name>
+		<titleID>0001000157544DXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Family Tennis</name>
+		<titleID>0001000157544EXX</titleID>
+		<region>2,5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Tetris Party</name>
+		<titleID>00010001575450XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>BIT.TRIP BEAT</name>
+		<titleID>00010001575452XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>BIT.TRIP BEAT [DEMO]</name>
+		<titleID>00010001584845XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Toki Tori</name>
+		<titleID>00010001575454XX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Texas Hold'em Tournament</name>
+		<titleID>00010001575458XX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Unou Kids: Okigaru Unou Training</name>
+		<titleID>0001000157554BXX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>UNO</name>
+		<titleID>0001000157554EXX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>BIT.TRIP VOID</name>
+		<titleID>00010001575642XX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>V.I.P. Casino: Blackjack</name>
+		<titleID>00010001575643XX</titleID>
+		<region>2</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Kodomo Kyoiku Terebi Wii: Aiue Ochan</name>
+		<titleID>00010001575644XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Water Warfare</name>
+		<titleID>0001000157564BXX</titleID>
+		<region>2,5,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Rock N' Roll Climber</name>
+		<titleID>0001000157564FXX</titleID>
+		<region>2</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Yomi Kikase Asobi Wii</name>
+		<titleID>0001000157594BXX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>Yummy Yummy Cooking Jam</name>
+		<titleID>0001000157594DXX</titleID>
+		<region>2,10</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>My Zoo</name>
+		<titleID>00010001575A48XX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>SIMPLE Series Vol. 5: The Judo</name>
+		<titleID>00010001575A4AXX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<WW>
+		<name>SIMPLE Series Vol. 3: The Mahjongg</name>
+		<titleID>00010001575A4DXX</titleID>
+		<region>5</region>
+		<ticket>false</ticket>
+	</WW>
+	<REGIONS>
+		<region index="0">41 (All/System)</region>
+		<region index="1">44 (German)</region>
+		<region index="2">45 (USA/NTSC)</region>
+		<region index="3">46 (French)</region>
+		<region index="4">49 (Italian)</region>
+		<region index="5">4A (Japan)</region>
+		<region index="6">4B (Korea)</region>
+		<region index="7">4C (Japanese Import to Europe/Australia/PAL)</region>
+		<region index="8">4D (American Import to Europe/Australia/PAL)</region>
+		<region index="9">4E (Japanese Import to USA/NTSC)</region>
+		<region index="10">50 (Europe/PAL)</region>
+		<region index="11">51 (Korea w/ Japanese Language)</region>
+		<region index="12">53 (Spanish)</region>
+		<region index="13">54 (Korea w/ English Language)</region>
+	</REGIONS>
+	<UPD>
+		<name>All System Menus</name>
+		<script>0000000100000002 0061
+0000000100000002 0080
+0000000100000002 0082
+0000000100000002 00a2
+0000000100000002 00c0
+0000000100000002 00c1
+0000000100000002 00c2
+0000000100000002 00e0
+0000000100000002 00e1
+0000000100000002 00e2
+0000000100000002 0100
+0000000100000002 0101
+0000000100000002 0102
+0000000100000002 0120
+0000000100000002 0121
+0000000100000002 0122
+0000000100000002 0160
+0000000100000002 0161
+0000000100000002 0162
+0000000100000002 0180
+0000000100000002 0181
+0000000100000002 0182
+0000000100000002 0186
+0000000100000002 01a0
+0000000100000002 01a1
+0000000100000002 01a2
+0000000100000002 01c0
+0000000100000002 01c1
+0000000100000002 01c2
+0000000100000002 01c6
+0000000100000002 01e0
+0000000100000002 01e1
+0000000100000002 01e2
+0000000100000002 01e6
+0000000100000002 0200
+0000000100000002 0201
+0000000100000002 0202
+0000000100000002 0206</script>
+	</UPD>
+</database>
