@@ -31,7 +31,7 @@
 		<name>BBC iPlayer Channel</name>
 		<titleID>0001000148434AXX</titleID>
 		<region>10</region>
-        <version>258,768</version>
+		<version>258,768</version>
 		<ticket>false</ticket>
 	</SYS>
 	<SYS>
@@ -42,18 +42,18 @@
 		<ticket>false</ticket>
 	</SYS>
 	<SYS>
-		<name>Jam with the Band Live Channel</name>
-		<titleID>00010001484341XX</titleID>
-		<region>5,10</region>
-        <version>1 (Japan),2 (Europe)</version>
-		<ticket>false</ticket>
-	</SYS>
-	<SYS>
 		<name>Digicam Print Channel</name>
 		<titleID>00010001484344XX</titleID>
 		<region>5</region>
-        <version>1,514,1024</version>
+		<version>1,514,1024</version>
 		<ticket>true</ticket>
+	</SYS>
+	<SYS>
+		<name>Jam with the Band Live Channel</name>
+		<titleID>00010001484341XX</titleID>
+		<region>5,10</region>
+		<version>1 (Japan),2 (Europe)</version>
+		<ticket>false</ticket>
 	</SYS>
 	<SYS>
 		<name>EULA</name>
@@ -67,7 +67,7 @@
 		<name>Everybody Votes Channel</name>
 		<titleID>0001000148414AXX</titleID>
 		<region>2,5,10</region>
-        <version>3,4,512</version>
+		<version>3,4,512</version>
 		<ticket>false</ticket>
 	</SYS>
 	<SYS>
@@ -109,7 +109,7 @@
 		<name>Nintendo Channel</name>
 		<titleID>00010001484154XX</titleID>
 		<region>2,5,10</region>
-        <version>2 (Japan),4,256,257 (Japan),512 (Japan),769,1280,1792</version>
+		<version>2 (Japan),4,256,257 (Japan),512 (Japan),769,1280,1792</version>
 		<ticket>false</ticket>
 	</SYS>
 	<SYS>
@@ -154,7 +154,7 @@
 		<version>3,4,5,6,7,8,10,16,17,18,19,20,21</version>
 		<ticket>true</ticket>
 	</SYS>
-    <SYS>
+	<SYS>
 		<name>Shopping Channel (Korea)</name>
 		<titleID>00010002484142XX</titleID>
 		<region>6</region>
@@ -165,7 +165,7 @@
 		<name>Today and Tomorrow Channel</name>
 		<titleID>00010001484156XX</titleID>
 		<region>5,10</region>
-        <version>1,512</version>
+		<version>1,512</version>
 		<ticket>false</ticket>
 	</SYS>
 	<SYS>
@@ -179,7 +179,7 @@
 		<name>Wii no Ma Channel</name>
 		<titleID>00010001484349XX</titleID>
 		<region>5</region>
-        <version>0,512,770,1025</version>
+		<version>0,512,770,1025</version>
 		<ticket>true</ticket>
 	</SYS>
 	<SYS>
