@@ -14,5 +14,4 @@ An up-to-date database for the NUS Downloader.
 
 1. Download the [BATCH script](https://raw.githubusercontent.com/WiiDatabase/NUS-Database/master/download_nus.bat)
 2. Move it to the same directory as the NUS Downloader
-3. Rename the "NUS Downloader.exe" to "nusd.exe"
-4. Run the script
+3. Run the script
