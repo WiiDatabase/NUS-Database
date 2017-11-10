@@ -31,14 +31,14 @@
 		<name>Amazon Instant Video (Europe)</name>
 		<titleID>00010001484357XX</titleID>
 		<region>10</region>
-        <version>3,4,258,512</version>
+		<version>3,4,258,512</version>
 		<ticket>false</ticket>
 	</SYS>
 	<SYS>
 		<name>Amazon Instant Video (USA)</name>
 		<titleID>00010001484357XX</titleID>
 		<region>2</region>
-        <version>1,768,1024,1280</version>
+		<version>1,768,1024,1280</version>
 		<ticket>false</ticket>
 	</SYS>
 	<SYS>
@@ -235,7 +235,7 @@
 		<name>TV Friend Channel / G-Guide for Wii</name>
 		<titleID>0001000148424EXX</titleID>
 		<region>5</region>
-        <version>1,512</version>
+		<version>1,512</version>
 		<ticket>true</ticket>
 	</SYS>
 	<SYS>
