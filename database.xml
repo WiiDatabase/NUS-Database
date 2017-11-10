@@ -28,10 +28,24 @@
 		<danger>BC plays a role in Gamecube functions. Removal or corruption of BC will result in no Gamecube support. This can be fixed with the installation of a proper BC.</danger>
 	</SYS>
 	<SYS>
+		<name>Amazon Instant Video (Europe)</name>
+		<titleID>00010001484357XX</titleID>
+		<region>10</region>
+        <version>3,4,258,512</version>
+		<ticket>false</ticket>
+	</SYS>
+	<SYS>
+		<name>Amazon Instant Video (USA)</name>
+		<titleID>00010001484357XX</titleID>
+		<region>2</region>
+        <version>1,768,1024,1280</version>
+		<ticket>false</ticket>
+	</SYS>
+	<SYS>
 		<name>BBC iPlayer Channel</name>
 		<titleID>0001000148434AXX</titleID>
 		<region>10</region>
-		<version>258,768</version>
+        <version>258,768</version>
 		<ticket>false</ticket>
 	</SYS>
 	<SYS>
@@ -42,18 +56,18 @@
 		<ticket>false</ticket>
 	</SYS>
 	<SYS>
+		<name>Crunchyroll</name>
+		<titleID>00010001484334XX</titleID>
+		<region>2,10</region>
+		<version>2 (Europe),3 (USA)</version>
+		<ticket>false</ticket>
+	</SYS>
+	<SYS>
 		<name>Digicam Print Channel</name>
 		<titleID>00010001484344XX</titleID>
 		<region>5</region>
-		<version>1,514,1024</version>
+        <version>1,514,1024</version>
 		<ticket>true</ticket>
-	</SYS>
-	<SYS>
-		<name>Jam with the Band Live Channel</name>
-		<titleID>00010001484341XX</titleID>
-		<region>5,10</region>
-		<version>1 (Japan),2 (Europe)</version>
-		<ticket>false</ticket>
 	</SYS>
 	<SYS>
 		<name>EULA</name>
@@ -67,7 +81,7 @@
 		<name>Everybody Votes Channel</name>
 		<titleID>0001000148414AXX</titleID>
 		<region>2,5,10</region>
-		<version>3,4,512</version>
+        <version>3,4,512</version>
 		<ticket>false</ticket>
 	</SYS>
 	<SYS>
@@ -78,11 +92,39 @@
 		<ticket>true</ticket>
 	</SYS>
 	<SYS>
+		<name>Hulu Plus (Japan)</name>
+		<titleID>00010001484351XX</titleID>
+		<region>5</region>
+		<version>2,256,514,768,1024</version>
+		<ticket>false</ticket>
+	</SYS>
+	<SYS>
+		<name>Hulu Plus (USA)</name>
+		<titleID>00010001484351XX</titleID>
+		<region>2</region>
+		<version>2,258,1025,1283</version>
+		<ticket>false</ticket>
+	</SYS>
+	<SYS>
+		<name>Jam with the Band Live Channel</name>
+		<titleID>00010001484341XX</titleID>
+		<region>5,10</region>
+        <version>1 (Japan),2 (Europe)</version>
+		<ticket>false</ticket>
+	</SYS>
+	<SYS>
 		<name>Japan Food Service/Demae Channel</name>
 		<titleID>00010008484343XX</titleID>
 		<region>5</region>
 		<version>0,1,2</version>
 		<ticket>true</ticket>
+	</SYS>
+	<SYS>
+		<name>Kirby TV Channel</name>
+		<titleID>0001000148434DXX</titleID>
+		<region>10</region>
+		<version>2,257</version>
+		<ticket>false</ticket>
 	</SYS>
 	<SYS>
 		<name>Metroid Prime 3 Preview </name>
@@ -99,6 +141,13 @@
 		<ticket>true</ticket>
 	</SYS>
 	<SYS>
+		<name>Netflix</name>
+		<titleID>0001000148434CXX</titleID>
+		<region>2,10</region>
+		<version>1 (USA only),774 (USA only),775 (USA only),1024,1538,1539,1794,2049</version>
+		<ticket>false</ticket>
+	</SYS>
+	<SYS>
 		<name>News Channel</name>
 		<titleID>00010002484147XX</titleID>
 		<region>0,2,5,10</region>
@@ -109,7 +158,7 @@
 		<name>Nintendo Channel</name>
 		<titleID>00010001484154XX</titleID>
 		<region>2,5,10</region>
-		<version>2 (Japan),4,256,257 (Japan),512 (Japan),769,1280,1792</version>
+        <version>2 (Japan),4,256,257 (Japan),512 (Japan),769,1280,1792</version>
 		<ticket>false</ticket>
 	</SYS>
 	<SYS>
@@ -154,7 +203,7 @@
 		<version>3,4,5,6,7,8,10,16,17,18,19,20,21</version>
 		<ticket>true</ticket>
 	</SYS>
-	<SYS>
+    <SYS>
 		<name>Shopping Channel (Korea)</name>
 		<titleID>00010002484142XX</titleID>
 		<region>6</region>
@@ -162,10 +211,24 @@
 		<ticket>true</ticket>
 	</SYS>
 	<SYS>
+		<name>Skyward Sword Save Data Only</name>
+		<titleID>00010000534F55XX</titleID>
+		<region>2,5,6,10</region>
+		<version>0 (Only European version),1</version>
+		<ticket>false</ticket>
+	</SYS>
+	<SYS>
+		<name>Skyward Sword Save Data Update Channel</name>
+		<titleID>00010001484352XX</titleID>
+		<region>2,5,6,10</region>
+		<version>0 (Only European version),1</version>
+		<ticket>false</ticket>
+	</SYS>
+	<SYS>
 		<name>Today and Tomorrow Channel</name>
 		<titleID>00010001484156XX</titleID>
 		<region>5,10</region>
-		<version>1,512</version>
+        <version>1,512</version>
 		<ticket>false</ticket>
 	</SYS>
 	<SYS>
@@ -176,10 +239,18 @@
 		<ticket>true</ticket>
 	</SYS>
 	<SYS>
+		<name>USB Flash Optimization</name>
+		<titleID>000100014843334A</titleID>
+		<region>5</region>
+        <version>12</version>
+		<ticket>false</ticket>
+		<danger>This channel optimises the 16 GB USB Flash Drive that comes with Dragon Quest X which handles installation and patches for the game.</danger>
+	</SYS>
+	<SYS>
 		<name>Wii no Ma Channel</name>
 		<titleID>00010001484349XX</titleID>
 		<region>5</region>
-		<version>0,512,770,1025</version>
+        <version>0,512,770,1025</version>
 		<ticket>true</ticket>
 	</SYS>
 	<SYS>
@@ -188,6 +259,35 @@
 		<region>2,5,10</region>
 		<version>1 (USA and Japan only),256,512</version>
 		<ticket>true</ticket>
+	</SYS>
+	<SYS>
+		<name>Wii System Transfer Channel</name>
+		<titleID>00010001484354XX</titleID>
+		<region>2,5,10</region>
+        <version>0,257,516</version>
+		<ticket>false</ticket>
+		<danger>This is the Wii U side of the Wii U Transfer Channel and likely won't work on a Wii.</danger>
+	</SYS>
+	<SYS>
+		<name>Wii U Transfer Channel</name>
+		<titleID>00010001484353XX</titleID>
+		<region>2,5,10</region>
+        <version>0,257,516</version>
+		<ticket>false</ticket>
+	</SYS>
+	<SYS>
+		<name>YouTube (Japan)</name>
+		<titleID>00010001484358XX</titleID>
+		<region>5</region>
+		<version>7,59,512,768</version>
+		<ticket>false</ticket>
+	</SYS>
+	<SYS>
+		<name>YouTube (USA)</name>
+		<titleID>00010001484358XX</titleID>
+		<region>2</region>
+		<version>0,257,1024,1280,1536</version>
+		<ticket>false</ticket>
 	</SYS>
 	<IOS>
 		<name>IOS4</name>
