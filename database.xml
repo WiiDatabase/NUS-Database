@@ -191,12 +191,6 @@
 		<danger>This hidden 'channel' is run on the Wii's first boot. It is advised not to mess around with it!</danger>
 	</SYS>
 	<SYS>
-		<name>Photo Channel 1.0 Restore Program</name>
-		<titleID>00010001484342XX</titleID>
-		<region>5</region>
-		<ticket>true</ticket>
-	</SYS>
-	<SYS>
 		<name>Shopping Channel</name>
 		<titleID>00010002484142XX</titleID>
 		<region>0</region>
