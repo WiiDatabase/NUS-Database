@@ -1,0 +1,253 @@
+<database v="(04/22/2018)"><!--MM/DD/YYYY-->
+	<SYS>
+		<name>BC-NAND</name>
+		<titleID>0000000700000200</titleID>
+		<version>6,7</version>
+		<ticket>true</ticket>
+	</SYS>
+	<SYS>
+		<name>BC-WFS</name>
+		<titleID>0000000700000201</titleID>
+		<version>1</version>
+		<ticket>true</ticket>
+	</SYS>
+	<SYS>
+		<name>System Menu</name>
+		<titleID>0000000700000002</titleID>
+		<version>512,513,514,544,545,546,608,609,610</version>
+		<ticket>true</ticket>
+		<danger>The System Menu is a critical part of the vWii boot sequence, and failure to install a proper WAD, failure to install its corresponding IOS module, and many other factors can cause a brick.</danger>
+	</SYS>
+	<SYS>
+		<name>Region Select</name>
+		<titleID>0007000848414CXX</titleID>
+		<region>2,5,10</region>
+		<version>2</version>
+		<ticket>true</ticket>
+	</SYS>
+	<SYS>
+		<name>Mii Channel</name>
+		<titleID>00070002484143XX</titleID>
+		<region>0</region>
+		<version>6</version>
+		<ticket>true</ticket>
+	</SYS>
+	<SYS>
+		<name>Return to Wii U Menu</name>
+		<titleID>00070002484356XX</titleID>
+		<region>0</region>
+		<version>0</version>
+		<ticket>true</ticket>
+	</SYS>
+	<SYS>
+		<name>Wii Menu Manual</name>
+		<titleID>00070002484355XX</titleID>
+		<region>2,5,10</region>
+		<version>0,1,2,3,4 (EUR only),5</version>
+		<ticket>true</ticket>
+	</SYS>
+	<SYS>
+		<name>Wii Shop Channel</name>
+		<titleID>00070002484142XX</titleID>
+		<region>0</region>
+		<version>21</version>
+		<ticket>true</ticket>
+	</SYS>
+	<SYS>
+		<name>vWii System Channel</name>
+		<titleID>0007000848435AXX</titleID>
+		<region>2,5,10</region>
+		<version>29,31</version>
+		<ticket>true</ticket>
+	</SYS>
+	<IOS>
+		<name>IOS9</name>
+		<titleID>0000000700000009</titleID>
+		<version>1290</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS12</name>
+		<titleID>000000070000000C</titleID>
+		<version>782</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS13</name>
+		<titleID>000000070000000D</titleID>
+		<version>1288</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS14</name>
+		<titleID>000000070000000E</titleID>
+		<version>1288</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS15</name>
+		<titleID>000000070000000F</titleID>
+		<version>1288</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS17</name>
+		<titleID>0000000700000011</titleID>
+		<version>1288</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS21</name>
+		<titleID>0000000700000015</titleID>
+		<version>1295</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS22</name>
+		<titleID>0000000700000016</titleID>
+		<version>1550</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS28</name>
+		<titleID>000000070000001C</titleID>
+		<version>1550,2063</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS31</name>
+		<titleID>000000070000001F</titleID>
+		<version>3864</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS33</name>
+		<titleID>0000000700000021</titleID>
+		<version>3864</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS34</name>
+		<titleID>0000000700000022</titleID>
+		<version>3864</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS35</name>
+		<titleID>0000000700000023</titleID>
+		<version>3864</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS36</name>
+		<titleID>0000000700000024</titleID>
+		<version>3864</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS37</name>
+		<titleID>0000000700000025</titleID>
+		<version>5919</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS38</name>
+		<titleID>0000000700000026</titleID>
+		<version>4380</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS41</name>
+		<titleID>0000000700000029</titleID>
+		<version>3863</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS43</name>
+		<titleID>000000070000002B</titleID>
+		<version>3863</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS45</name>
+		<titleID>000000070000002D</titleID>
+		<version>3863</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS46</name>
+		<titleID>000000070000002E</titleID>
+		<version>3863</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS48</name>
+		<titleID>0000000700000030</titleID>
+		<version>4380</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS53</name>
+		<titleID>0000000700000035</titleID>
+		<version>5919</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS55</name>
+		<titleID>0000000700000037</titleID>
+		<version>5919</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS56</name>
+		<titleID>0000000700000038</titleID>
+		<version>5918</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS57</name>
+		<titleID>0000000700000039</titleID>
+		<version>6175</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS58</name>
+		<titleID>000000070000003A</titleID>
+		<version>6432</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS59</name>
+		<titleID>000000070000003B</titleID>
+		<version>7201,8737,9249</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS62</name>
+		<titleID>000000070000003E</titleID>
+		<version>6430,6686,6942</version>
+		<ticket>true</ticket>
+	</IOS>
+	<IOS>
+		<name>IOS80</name>
+		<titleID>0000000700000050</titleID>
+		<version>7200</version>
+		<ticket>true</ticket>
+	</IOS>
+	<REGIONS>
+		<region index="0">41 (All/System)</region>
+		<region index="1">44 (German)</region>
+		<region index="2">45 (USA/NTSC)</region>
+		<region index="3">46 (French)</region>
+		<region index="4">49 (Italian)</region>
+		<region index="5">4A (Japan)</region>
+		<region index="6">4B (Korea)</region>
+		<region index="7">4C (Japanese Import to Europe/Australia/PAL)</region>
+		<region index="8">4D (American Import to Europe/Australia/PAL)</region>
+		<region index="9">4E (Japanese Import to USA/NTSC)</region>
+		<region index="10">50 (Europe/PAL)</region>
+		<region index="11">51 (Korea w/ Japanese Language)</region>
+		<region index="12">53 (Spanish)</region>
+		<region index="13">54 (Korea w/ English Language)</region>
+	</REGIONS>
+</database>
