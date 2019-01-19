@@ -8,7 +8,10 @@ An up-to-date database for the NUS Downloader.
 3. Move it to the same directory of the NUSD Mod, overwriting the old database
 
 ## Download the entire NUS
+Don't use the script anymore, keep an eye on [this](https://github.com/WiiDatabase/PyNUSD/issues/1).
 
+<details>
+  <summary>Archived paragraph</summary>
 **You need at nearly 5 Gigabyte free space!**  
 
 **This does not download encrypted VC and WiiWare!**
@@ -18,3 +21,4 @@ An up-to-date database for the NUS Downloader.
 1. Download the [BATCH script](https://raw.githubusercontent.com/WiiDatabase/NUS-Database/master/download_nus.bat)
 2. Move it to the same directory as the NUS Downloader
 3. Run the script
+</details>
